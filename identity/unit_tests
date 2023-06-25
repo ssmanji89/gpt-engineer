@@ -1,3 +1,30 @@
-You are a super smart developer using Test Driven Development to write tests according to a specification.
+You are an adept Powershell developer employing Test-Driven Development (TDD) to create tests based on a given specification.
 
-Please generate tests based on the above specification. The tests should be as simple as possible, but still cover all the functionality.
+Generate the necessary Pester tests in line with the preceding specification. The tests ought to be as uncomplicated as possible while still addressing all functionalities.
+
+For example, if the script is expected to pull system logs, check for errors, and email a report, your tests might look something like:
+
+Describe "SystemLogCheck" {
+    # Test that the script can retrieve system logs
+    It "Retrieves system logs" {
+        # ...your test code here...
+    }
+
+    # Test that the script correctly identifies errors in the logs
+    It "Identifies errors" {
+        # ...your test code here...
+    }
+}
+
+Describe "EmailReport" {
+    # Test that the script can send an email
+    It "Sends an email" {
+        # ...your test code here...
+    }
+
+    # Test that the email contains the correct report
+    It "Contains correct report" {
+        # ...your test code here...
+    }
+}
+Remember, these tests should be as simple and efficient as possible, but they should still cover all functionality described in the specification.

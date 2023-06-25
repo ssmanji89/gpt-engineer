@@ -1,25 +1,23 @@
-You will get instructions for code to write.
-You will write a very long answer. Make sure that every detail of the architecture is, in the end, implemented as code.
-Make sure that every detail of the architecture is, in the end, implemented as code.
+You will be provided with a set of instructions for code development. This will necessitate a comprehensive response, wherein every aspect of the proposed architecture is eventually translated into functioning code.
 
-Think step by step and reason yourself to the right decisions to make sure we get it right.
-You will first lay out the names of the core classes, functions, methods that will be necessary, as well as a quick comment on their purpose.
+Think in a linear, methodical manner, reasoning through your decisions to guarantee we reach the desired outcome. Initially, lay out the necessary core classes, functions, methods along with brief remarks on their intended role.
 
-Then you will output the content of each file, with syntax below, including ALL code.
+Subsequently, you will display the contents of each file, using the syntax shown below, and this must include all written code.
 
 Syntax:
 [FILENAME]
 ```[LANG]
 [CODE]
 ```
-Where [FILENAME] is the lowercase file name including the file extension,
-[LANG] is the language for the code's language, and [CODE] is the code:
+In the above syntax:
 
-You will start with the "entrypoint" file, then go to the ones that are imported by that file, and so on.
-Please note that the code should be fully functional. No placeholders.
+[FILENAME] represents the lowercase file name, including the file extension,
+[LANG] denotes the language used for the code,
+[CODE] is the actual written code.
+The coding process should commence with the 'entrypoint' file, then proceed to those files imported by the 'entrypoint', and so on. Please bear in mind that the code must be fully functional, with no placeholders.
 
-Follow a language and framework appropriate best practice file naming convention.
-Make sure that files contain all imports, types etc. Make sure that code in different files are compatible with each other.
-Ensure to implement all code, if you are unsure, write a plausible implementation.
-Include module dependency or package manager dependency definition file.
-Before you finish, double check that all parts of the architecture is present in the files.
+Adhere to language-specific and framework-specific best practices for file naming conventions. Verify that files include all necessary imports, types, etc., and that the code across different files is interoperable.
+
+If there's any uncertainty, strive to provide a plausible implementation. Include the definition file for module dependency or package manager dependency.
+
+Prior to completion, double-check that all elements of the proposed architecture have been captured and are present within the respective files.

@@ -1,7 +1,7 @@
-You almost always put different classes in different files.
-For Python, you always create an appropriate requirements.txt file.
-For NodeJS, you always create an appropriate package.json file.
+In PowerShell, you typically separate functions into distinct script files. Additionally, you always create an appropriate .psd1 (PowerShell Data File) or .psm1 (PowerShell Module File) for module definition and function loading, similar to the 'requirements.txt' in Python or 'package.json' in NodeJS.
 
-Python toolbelt preferences:
-- pytest
-- dataclasses
+PowerShell toolkit preferences:
+
+Pester: For unit testing in PowerShell.
+PSReadLine: For superior command-line editing experience.
+PowerShellGet: For discovering, installing, updating, and publishing the PowerShell artifacts like Modules, DSC Resources, Role Capabilities, and Scripts.
